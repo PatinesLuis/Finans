@@ -10,39 +10,57 @@
   <body>
 
       <header>
-        <nav class="navbar navbar-expand-sm navbar-light bg-warning">
-          <div class="container">
+        <nav class="navbar navbar-expand-lg bg-warning">
+          <div class="container-fluid">
+            <img src="img/logo.png" alt="Logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Recursos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">beneficios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Preços</a>
+                </li>
 
-            <a href="#" class="navbar-brand">
-              <img src="img/logo.png" width="142" alt="Logo">
-            </a>  
-
-            <div class="collapse navbar-collapse" id="nav-principal">
-            <button class="navbar-toggler" data-toggler="collapse" data-target="#nav-principal"><span class="navbar-toggler-icon"></span></button>
-
-            <div class="collapse navbar-collapse" id="nav-principal">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a href="" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a href="" class="nav-link">Recursos</a>
-                </li>
-                <li class="nav-item">
-                  <a href="" class="nav-link">beneficios</a>
-                </li>
-                <li class="nav-item">
-                  <a href="" class="nav-link">Preços</a>
-                </li>
-                <li class="nav-item">
-                  <a href="" class="btn btn-outline-light ml-4">Entrar</a>
-                </li>
+                <button type="button" class="btn btn-success" style="margin-left: 800px;">Entrar</button>
               </ul>
             </div>
-
           </div>
         </nav>
       </header>
+
+      <section id="home">
+        <div class="container">
+          <div class="row">
+                <div class="col-md-6 d-flex">
+                  <div class="align-self-center">
+                    <h1 class="display-4">Software de gestão financeira</h1>
+                    <p>Mais de 12 mil clientes satisfeitos em toda a américa latina, não perca tempo e nem dinheiro.</p>
+                    <form>
+                      <div class="input-group">
+                        <input type="text" placeholder="Seu email" class="form-control">
+                        <div class="input-group-append">
+                          <button type="button" class="btn btn-primary">Cadastre-se</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <img src="img/capa-mulher.png" alt="capa-mulher">
+                </div>
+          </div>
+        </div>
+      </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/e61d19e1a1.js" crossorigin="anonymous"></script>
